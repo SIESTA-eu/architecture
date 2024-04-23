@@ -2,11 +2,9 @@
   "id" : 1,
   "name" : "SIESTA",
   "description" : "SIESTA architecture",
-  "revision" : 0,
-  "lastModifiedDate" : "2023-01-16T09:50:55Z",
-  "lastModifiedAgent" : "structurizr-web/2894/diagram",
+  "lastModifiedDate" : "2023-03-10T08:50:11Z",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlIGV4dGVuZHMgLi9lb3NjLWxhbmRzY2FwZS5kc2wgewogICAgCiMgICAgIWltcGxpZWRSZWxhdGlvbnNoaXBzIGZhbHNlCgogICAgbmFtZSAiU0lFU1RBIgogICAgZGVzY3JpcHRpb24gIlNJRVNUQSBhcmNoaXRlY3R1cmUiCgogICAgbW9kZWwgewogICAgICAgICFyZWYgZW9zY191c2VyIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIlNjaWVudGlzdHMgd2lsbGluZyB0byBhbmFseXplIHNlbnNpdGl2ZSBkYXRhIGluIHRoZSBFT1NDLiIKICAgICAgICB9CgogICAgICAgIHNpZXN0YSA9IGVudGVycHJpc2UgIlNJRVNUQSBUcnVzdGVkIEVudmlyb25tZW50IGZvciByZXNlYXJjaCIgewogICAgICAgICAgICBzaWVzdGFfcGxhdGZvcm0gPSBzb2Z0d2FyZVN5c3RlbSAiU0lFU1RBIFNlY3VyZSBDb21wdXRlIiAiQWxsb3dzIGxhcmdlLXNjYWxlIGFuYWx5c2lzIGFuZCBwcm9jZXNzaW5nIG9mIHNlbnNpdGl2ZSBkYXRhIiB7CiAgICAgICAgICAgICAgICBzdG9yYWdlID0gZ3JvdXAgIlN0b3JhZ2UiIHsgIAogICAgICAgICAgICAgICAgICAgIGFub255bWl6YXRpb24gPSBjb250YWluZXIgIkFzc2lzdGVkIGFub255bWl6YXRpb24gdG9vbCIgIkhlbHBzIHVzZXJzIHRvIGFub255bWl6ZSB0aGVpciBkYXRhIHVzaW5nIGRpZmZlcmVudCBwcml2YWN5IG1vZGVscyAoZGlmZmVyZW50aWFsIHByaXZhY3kgay1hbm9ueW1pdHksIGwtZGl2ZXJzaXR5LCBldGMuKSIgIiIgImRhc2hib2FyZCIKICAgICAgICAgICAgICAgICAgICBpbmdlc3Rpb24gPSBjb250YWluZXIgIkRhdGEgaW5nZXN0aW9uIHN5c3RlbSIgIkFsbG93cyB0byBmZXRjaCBkYXRhIGZyb20gZXh0ZXJuYWwgc291cmNlcyIgIkthZmthIgoKICAgICAgICAgICAgICAgICAgICBlbmNyeXB0ZWRfc3RvcmFnZSA9IGNvbnRhaW5lciAiRW5jcnlwdGVkIHN0b3JhZ2UiICJTdG9yZXMgZGF0YSBlbmNyeXB0ZWQiICIiICJzdG9yYWdlIgogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIGRhdGFfZWdyZXNzID0gY29udGFpbmVyICJFZ3Jlc3Mgc2VydmljZSIgIkFsbG93cyB0byBjaGVjayB0aGF0IGRhdGEgY2FuIGJlIGhhbmRsZWQgYWNjb3JkaW5nbHksIHBlcmZvcm1pbmcgZGlzY2xvc3VyZSBjb250cm9sLCBldGMuIiAiIiAiZGFzaGJvYXJkIgoKICAgICAgICAgICAgICAgICAgICBvdXRwdXRfZGF0YSA9IGNvbnRhaW5lciAiT3V0cHV0IGRhdGEiICJOb24gZWNyeXB0ZWQgc3RvcmFnZSwgcHJvdmlkaW5nIG91dHB1dCBkYXRhIiAiIiAic3RvcmFnZSIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBhY2Nlc3MgPSBncm91cCAiQWNjZXNzIiB7CiAgICAgICAgICAgICAgICAgICAgYXV0aCA9IGNvbnRhaW5lciAiSWRlbnRpdHkiICJQcm92aWRlcyBBdXRoTi9aIHRvIHRoZSBTSUVTVEEgcGxhdGZvcm0iICJPcGVuSUQgQ29ubmVjdCIKICAgICAgICAgICAgICAgICAgICByZW1vdGVfZGVza3RvcCA9IGNvbnRhaW5lciAiUmVtb3RlIGRlc2t0b3AiICJSZW1vdGUgZGVza3RvcCB3aXRoIGxpbWl0ZWQgY2FwYWJpbGl0aWVzIiAiQ2VuZGlvIFRoaW5saW5rIgoKICAgICAgICAgICAgICAgICAgICBqZWcgPSBjb250YWluZXIgIkludGVyYWN0aXZlIGFuYWx5dGljcyIgIkFsbG93cyBkYXRhIHNjaWVudGlzdHMgdG8gYW5hbHl6ZSBkYXRhIiAiSnVweXRlciBFbnRlcnByaXNlIEdhdGV3YXkgU2VydmVyIiAiZGFzaGJvYXJkIgogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGNvbXB1dGUgPSBncm91cCAiQ29tcHV0ZSIgewoKICAgICAgICAgICAgICAgICAgICBjb21wdXRlX2VudiA9IGNvbnRhaW5lciAiQ29tcHV0ZSBlbnZpcm9ubWVudCIKICAgICAgICAgICAgICAgICAgICBzZWN1cmVfbWlycm9yID0gY29udGFpbmVyICJTb2Z0d2FyZSBtaXJyb3IiICJBbGxvd3MgdG8gaW5zdGFsbCB3aGl0ZWxpc3RlIGFuYWx5dGljcyBwYWNrYWdlcyIgIiIgInN0b3JhZ2UiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHNpZXN0YV9hdWRpdCA9IHNvZnR3YXJlU3lzdGVtICJTSUVTVEEgYXVkaXQgc3lzdGVtIiAiQWxsb3cgdG8gdGFtcGVyLXByb29mIHRyYWNlIGFjdGlvbnMgaW4gdGhlIGNvbXB1dGUgYW5kIHN0b3JhZ2Ugc3lzdGVtIiB7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGRhdGFfb3JnID0gZ3JvdXAgIkRhdGEgcHJvdmlkZXIiIHsKICAgICAgICAgICAgZGF0YV9vd25lciA9IHBlcnNvbiAiRGF0YSBvd25lciIKICAgICAgICAgICAgc2Vuc2l0aXZlX2RhdGEgPSBzb2Z0d2FyZVN5c3RlbSAiU2Vuc2l0aXZlIERhdGEiICIiICJzdG9yYWdlCiAgICAgICAgfQogICAgICAgIGV4dGVybmFsX2RhdGEgPSBzb2Z0d2FyZVN5c3RlbSAiTm9uLXNlbnNpdGl2ZSBkYXRhIiAiIiAic3RvcmFnZSIKCiAgICAgICAgIyBTeXN0ZW0gaW50ZXJhY3Rpb24KICAgICAgICBlb3NjX3VzZXIgLT4gc2llc3RhX3BsYXRmb3JtICJVc2VzIgogICAgICAgIHNlbnNpdGl2ZV9kYXRhIC0+IHNpZXN0YV9wbGF0Zm9ybSAiSXMgYXZhaWxhYmxlIGluIgogICAgICAgIGV4dGVybmFsX2RhdGEgLT4gc2llc3RhX3BsYXRmb3JtICJJcyBhdmFpbGFibGUgaW4iCiAgICAgICAgZGF0YV9vd25lciAtPiBhbm9ueW1pemF0aW9uICJBbm9ueW1pemVzIGRhdGEgdXNpbmciCiAgICAgICAgc2llc3RhX3BsYXRmb3JtIC0+IGVvc2NfcmVwbyAiQ2FuIHB1Ymxpc2ggZGF0YSBpbiIKICAgICAgICBzaWVzdGFfcGxhdGZvcm0gLT4gcG9ydGFsICJJcyByZWdpc3RlcmVkIGluIgogICAgICAgIHNpZXN0YV9wbGF0Zm9ybSAtPiBhYWkgIklzIGludGVncmF0ZWQgd2l0aCIKICAgICAgICBzaWVzdGFfcGxhdGZvcm0gLT4gc2llc3RhX2F1ZGl0ICJSZWdpc3RlcnMgYWN0aW9ucyBvbiIKCiAgICAgICAgIyBEYXRhCiAgICAgICAgc2Vuc2l0aXZlX2RhdGEgLT4gYW5vbnltaXphdGlvbiAiaXMgYW5vbmltaXplZCIgCiAgICAgICAgYW5vbnltaXphdGlvbiAtPiBlb3NjX3JlcG8gImNhbiBiZSBwdWJsaXNoZWQgaW4iCiAgICAgICAgYW5vbnltaXphdGlvbiAtPiBpbmdlc3Rpb24gInNlbmRzIGFub255bWl6ZWQgZGF0YSB0byIKICAgICAgICBpbmdlc3Rpb24gLT4gZW5jcnlwdGVkX3N0b3JhZ2UgIndyaXRlcyBhbm9ueW1pemVkIGRhdGEgdG8iCiAgICAgICAgZXh0ZXJuYWxfZGF0YSAtPiBpbmdlc3Rpb24gIndyaXRlcyBkYXRhIHRvIgogICAgICAgIAogICAgICAgIGRhdGFfZWdyZXNzIC0+IGVuY3J5cHRlZF9zdG9yYWdlICJSZWFkcyBkYXRhIGZyb20iCiAgICAgICAgZGF0YV9lZ3Jlc3MgLT4gb3V0cHV0X2RhdGEgIlN0YWdlcyBkYXRhIGluIgogICAgICAgIG91dHB1dF9kYXRhIC0+IGVvc2NfcmVwbyAiQ2FuIGJlIHB1Ymxpc2hlZCBpbiIKCiAgICAgICAgLyogamVnIC0+IHNpZXN0YV9hdWRpdCAiTG9nIGFjdGlvbnMiICovCiAgICAgICAgLyogcmVtb3RlX2Rlc2t0b3AgLT4gc2llc3RhX2F1ZGl0ICJMb2cgYWN0aW9ucyIgKi8KICAgICAgICAvKiBkYXRhX2VncmVzcyAtPiBzaWVzdGFfYXVkaXQgIkxvZyBkYXRhIHRyYW5zYWN0aW9uIiAqLwogICAgICAgIC8qIG91dHB1dF9kYXRhIC0+IHNpZXN0YV9hdWRpdCAiTG9nIGRhdGEgdHJhbnNhY3Rpb24iICovCiAgICAgICAgLyogY29tcHV0ZV9lbnYgLT4gc2llc3RhX2F1ZGl0ICJMb2cgY29tcHV0ZSB0cmFuc2FjdGlvbiIgKi8KICAgICAgICAvKiBpbmdlc3Rpb24gLT4gc2llc3RhX2F1ZGl0ICJMb2cgZGF0YSB0cmFuc2FjdGlvbiIgKi8KCiAgICAgICAgIyB1c2VyIGFjdGlvbnMKICAgICAgICBlb3NjX3VzZXIgLT4gcmVtb3RlX2Rlc2t0b3AgIlVzZXMgKGhpZ2hseSBzZW5zaXRpdmUgZGF0YSkiCiAgICAgICAgZW9zY191c2VyIC0+IGplZyAiVXNlcyIKICAgICAgICByZW1vdGVfZGVza3RvcCAtPiBqZWcgIkFsbG93cyBhY2Nlc3MgdG8iCiAgICAgICAgZGF0YV9vd25lciAtPiBkYXRhX2VncmVzcyAiQ2hlY2tzIGRhdGEgY2FuIGJlIGV4cG9ydGVkIgogICAgICAgIGVvc2NfdXNlciAtPiBkYXRhX2VncmVzcyAiUmVxdWVzdHMgb3V0cHV0IGRhdGEiCiAgICAgICAgZW9zY191c2VyIC0+IG91dHB1dF9kYXRhICJSZWFkcyBkYXRhIGZyb20iCgogICAgICAgICMgYXV0aAogICAgICAgIGF1dGggLT4gYWFpICJJcyBpbnRlZ3JhdGVkIHdpdGgiCiAgICAgICAgZW9zY191c2VyIC0+IGF1dGggIkF1dGhlbnRpY2F0ZXMgd2l0aCIKICAgICAgICBkYXRhX293bmVyIC0+IGF1dGggIkF1dGhlbnRpY2F0ZXMgd2l0aCIKICAgICAgICAvKiByZW1vdGVfZGVza3RvcCAtPiBhdXRoICJBdXRoZW50aWNhdGVzIHdpdGgiICovCiAgICAgICAgLyogamVnIC0+IGF1dGggIkF1dGhlbnRpY2FlcyB3aXRoIiAqLwogICAgICAgIC8qIGRhdGFfZWdyZXNzIC0+IGF1dGggIkF1dGhlbnRpY2F0ZXMgd2l0aCIgKi8KICAgICAgICAvKiBpbmdlc3Rpb24gLT4gYXV0aCAiQXV0aGVudGljYXRlcyB3aXRoIiAqLwoKICAgICAgICAKICAgICAgICAjIENvbXB1dGUKICAgICAgICBqZWcgLT4gY29tcHV0ZV9lbnYgIkNyZWF0ZXMgY29tcHV0ZSB0YXNrcyIKICAgICAgICBjb21wdXRlX2VudiAtPiBlbmNyeXB0ZWRfc3RvcmFnZSAiUmVhZHMvd3JpdGVzIGZyb20iCiAgICAgICAgY29tcHV0ZV9lbnYgLT4gc2VjdXJlX21pcnJvciAiSW5zdGFsbHMgc29mdHdhcmUgZnJvbSIKCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHRoZW1lIERlZmF1bHQKICAgICAgICAKICAgICAgICBzeXN0ZW1MYW5kc2NhcGUgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBzaWVzdGFfcGxhdGZvcm0gewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAic3RvcmFnZSIgewogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgIH0KCn0K"
+    "structurizr.dsl" : "d29ya3NwYWNlIGV4dGVuZHMgLi9lb3NjLWxhbmRzY2FwZS5kc2wgewogICAgCiAgICAhaW1wbGllZFJlbGF0aW9uc2hpcHMgdHJ1ZQoKICAgIG5hbWUgIlNJRVNUQSIKICAgIGRlc2NyaXB0aW9uICJTSUVTVEEgYXJjaGl0ZWN0dXJlIgoKICAgIG1vZGVsIHsKICAgICAgICAhcmVmIGVvc2NfdXNlciB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJTY2llbnRpc3RzIHdpbGxpbmcgdG8gYW5hbHl6ZSBzZW5zaXRpdmUgZGF0YSBpbiB0aGUgRU9TQy4iCiAgICAgICAgfQoKICAgICAgICBzaWVzdGEgPSBlbnRlcnByaXNlICJTSUVTVEEgVHJ1c3RlZCBFbnZpcm9ubWVudCBmb3IgcmVzZWFyY2giIHsKICAgICAgICAgICAgc2llc3RhX3N0b3JhZ2UgPSBzb2Z0d2FyZVN5c3RlbSAiU0lFU1RBIFNlY3VyZSBTdG9yYWdlIiAiQWxsb3dzIHN0b3JhZ2Ugb2YgbGFyZ2Utc2NhbGUgZGF0YSBpbiBhIHNlY3VyZSB3YXkiIHsKICAgICAgICAgICAgICAgIGFub255bWl6YXRpb24gPSBjb250YWluZXIgIkFzc2lzdGVkIGFub255bWl6YXRpb24gdG9vbCIgIkhlbHBzIHVzZXJzIHRvIGFub255bWl6ZSB0aGVpciBkYXRhIHVzaW5nIGRpZmZlcmVudCBwcml2YWN5IG1vZGVscyAoZGlmZmVyZW50aWFsIHByaXZhY3kgay1hbm9ueW1pdHksIGwtZGl2ZXJzaXR5LCBldGMuKSIgIiIgImRhc2hib2FyZCIKICAgICAgICAgICAgICAgIGluZ2VzdGlvbiA9IGNvbnRhaW5lciAiRGF0YSBpbmdlc3Rpb24gc3lzdGVtIiAiQWxsb3dzIHRvIGZldGNoIGRhdGEgZnJvbSBleHRlcm5hbCBzb3VyY2VzIiAiS2Fma2EiCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGVuY3J5cHRlZF9zdG9yYWdlID0gY29udGFpbmVyICJFbmNyeXB0ZWQgc3RvcmFnZSIgIlN0b3JlcyBkYXRhIGVuY3J5cHRlZCIgIiIgInN0b3JhZ2UiCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGRhdGFfZWdyZXNzID0gY29udGFpbmVyICJFZ3Jlc3Mgc2VydmljZSIgIkFsbG93cyB0byBjaGVjayB0aGF0IGRhdGEgY2FuIGJlIGhhbmRsZWQgYWNjb3JkaW5nbHksIHBlcmZvcm1pbmcgZGlzY2xvc3VyZSBjb250cm9sLCBldGMuIiAiIiAiZGFzaGJvYXJkIgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBvdXRwdXRfZGF0YSA9IGNvbnRhaW5lciAiT3V0cHV0IGRhdGEiICJOb24gZWNyeXB0ZWQgc3RvcmFnZSwgcHJvdmlkaW5nIG91dHB1dCBkYXRhIiAiIiAic3RvcmFnZSIKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgc2llc3RhX2NvbXB1dGUgPSBzb2Z0d2FyZVN5c3RlbSAiU0lFU1RBIFNlY3VyZSBDb21wdXRlIiAiQWxsb3dzIGxhcmdlLXNjYWxlIGFuYWx5c2lzIGFuZCBwcm9jZXNzaW5nIG9mIHNlbnNpdGl2ZSBkYXRhIiB7CgogICAgICAgICAgICAgICAgYWNjZXNzID0gZ3JvdXAgIkFjY2VzcyIgewogICAgICAgICAgICAgICAgICAgIHJlbW90ZV9kZXNrdG9wID0gY29udGFpbmVyICJSZW1vdGUgZGVza3RvcCIgIlJlbW90ZSBkZXNrdG9wIHdpdGggbGltaXRlZCBjYXBhYmlsaXRpZXMiICJDZW5kaW8gVGhpbmxpbmsiCiAgICAgICAgICAgICAgICAgICAgYXBpID0gY29udGFpbmVyICJDb21wdXRlIEFQSSIgIkFsbG93cyBleGVjdXRpb24gb2Ygc3BlY2lmaWMgdGFza3MsIHVzaW5nIHRydXN0ZWQgYW5hbHlzaXMgY29kZSIgCiAgICAgICAgICAgICAgICAgICAgamVnID0gY29udGFpbmVyICJJbnRlcmFjdGl2ZSBhbmFseXRpY3MiICJBbGxvd3MgZGF0YSBzY2llbnRpc3RzIHRvIGFuYWx5emUgZGF0YSIgIkp1cHl0ZXIgRW50ZXJwcmlzZSBHYXRld2F5IFNlcnZlciIgImRhc2hib2FyZCIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBjb21wdXRlID0gZ3JvdXAgIkNvbXB1dGUiIHsKCiAgICAgICAgICAgICAgICAgICAgY29tcHV0ZV9lbnYgPSBjb250YWluZXIgIkNvbXB1dGUgZW52aXJvbm1lbnQiCiAgICAgICAgICAgICAgICAgICAgc2VjdXJlX21pcnJvciA9IGNvbnRhaW5lciAiU29mdHdhcmUgbWlycm9yIiAiQWxsb3dzIHRvIGluc3RhbGwgd2hpdGVsaXN0ZSBhbmFseXRpY3MgcGFja2FnZXMiICIiICJzdG9yYWdlIgogICAgICAgICAgICAgICAgICAgIHNlY3VyZV9yZXBvID0gY29udGFpbmVyICJDb2RlIHJlcG9zaXRvcnkiICJTdG9yZXMgdHJ1c3RlZCBhbmFseXNpcyBjb2RlIiAiR2l0TGFiIiAicmVwb3NpdG9yeSIKCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIHJldmlld2VyID0gcGVyc29uICJDb2RlIHJldmlld2VyIgoKICAgICAgICAgICAgc2llc3RhX2F1ZGl0ID0gc29mdHdhcmVTeXN0ZW0gIlNJRVNUQSBhdWRpdCBzeXN0ZW0iICJBbGxvdyB0byB0YW1wZXItcHJvb2YgdHJhY2UgYWN0aW9ucyBpbiB0aGUgY29tcHV0ZSBhbmQgc3RvcmFnZSBzeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGF1dGggPSBjb250YWluZXIgIklkZW50aXR5IiAiUHJvdmlkZXMgQXV0aE4vWiB0byB0aGUgU0lFU1RBIHBsYXRmb3JtIiAiT3BlbklEIENvbm5lY3QiCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHdvcmtmbG93ID0gc29mdHdhcmVTeXN0ZW0gIkV4dGVybmFsIHdvcmtmbG93IHN5c3RlbSIgIkV4ZWN1dGVzIGFuYWx5dGljcyB3b3JrZmxvd3MiICJleHRlcm5hbCIKCiAgICAgICAgZGF0YV9vcmcgPSBncm91cCAiRGF0YSBwcm92aWRlciIgewogICAgICAgICAgICBkYXRhX293bmVyID0gcGVyc29uICJEYXRhIG93bmVyIgogICAgICAgICAgICBzZW5zaXRpdmVfZGF0YSA9IHNvZnR3YXJlU3lzdGVtICJTZW5zaXRpdmUgRGF0YSIgIiIgInN0b3JhZ2UsZXh0ZXJuYWwiCiAgICAgICAgfQogICAgICAgIGV4dGVybmFsX2RhdGEgPSBzb2Z0d2FyZVN5c3RlbSAiTm9uLXNlbnNpdGl2ZSBkYXRhIiAiIiAic3RvcmFnZSxleHRlcm5hbCIKCiAgICAgICAgIyBTeXN0ZW0gaW50ZXJhY3Rpb24KICAgICAgICBlb3NjX3VzZXIgLT4gc2llc3RhX2NvbXB1dGUgIlVzZXMiCiAgICAgICAgc2Vuc2l0aXZlX2RhdGEgLT4gc2llc3RhX3N0b3JhZ2UgIklzIGF2YWlsYWJsZSBpbiIKICAgICAgICBleHRlcm5hbF9kYXRhIC0+IHNpZXN0YV9zdG9yYWdlICJJcyBhdmFpbGFibGUgaW4iCiAgICAgICAgZGF0YV9vd25lciAtPiBzaWVzdGFfc3RvcmFnZSAiTWFrZXMgZGF0YSBhdmFpbGFibGUgaW4iCgogICAgICAgIHNpZXN0YV9jb21wdXRlIC0+IHNpZXN0YV9zdG9yYWdlICJSZWFkcyBkYXRhIHRvL2Zyb20iCiAgICAgICAgd29ya2Zsb3cgLT4gc2llc3RhX2NvbXB1dGUgIkV4ZWN1dGVzIHRhc2tzIG9uIgoKICAgICAgICBzaWVzdGFfc3RvcmFnZSAtPiBlb3NjX3JlcG8gIkNhbiBwdWJsaXNoIGRhdGEgaW4iCiAgICAgICAgc2llc3RhX2NvbXB1dGUgLT4gcG9ydGFsICJJcyByZWdpc3RlcmVkIGluIgogICAgICAgIC8qIHNpZXN0YV9zdG9yYWdlIC0+IHBvcnRhbCAiSXMgcmVnaXN0ZXJlZCBpbiIgKi8KICAgICAgICBzaWVzdGFfY29tcHV0ZSAtPiBhYWkgIklzIGludGVncmF0ZWQgd2l0aCIKICAgICAgICBzaWVzdGFfc3RvcmFnZSAtPiBhYWkgIklzIGludGVncmF0ZWQgd2l0aCIKICAgICAgICBzaWVzdGFfY29tcHV0ZSAtPiBzaWVzdGFfYXVkaXQgIlJlZ2lzdGVycyB0cmFuc2FjdGlvbnMgb24iCiAgICAgICAgc2llc3RhX3N0b3JhZ2UgLT4gc2llc3RhX2F1ZGl0ICJSZWdpc3RlcnMgdHJhbnNhY3Rpb25zIG9uIgoKICAgICAgICByZXZpZXdlciAtPiBzaWVzdGFfY29tcHV0ZSAiRW5zdXJlcyBjb2RlIGlzIHRydXN0ZWQiCgogICAgICAgICMgRGF0YQogICAgICAgIHNlbnNpdGl2ZV9kYXRhIC0+IGFub255bWl6YXRpb24gImlzIGFub25pbWl6ZWQiIAogICAgICAgIC8qIGFub255bWl6YXRpb24gLT4gZGF0YV9lZ3Jlc3MgKi8KICAgICAgICBhbm9ueW1pemF0aW9uIC0+IGluZ2VzdGlvbiAic2VuZHMgYW5vbnltaXplZCBkYXRhIHRvIgogICAgICAgIGluZ2VzdGlvbiAtPiBlbmNyeXB0ZWRfc3RvcmFnZSAid3JpdGVzIGFub255bWl6ZWQgZGF0YSB0byIKICAgICAgICBleHRlcm5hbF9kYXRhIC0+IGluZ2VzdGlvbiAid3JpdGVzIGRhdGEgdG8iCiAgICAgICAgZGF0YV9lZ3Jlc3MgLT4gZW5jcnlwdGVkX3N0b3JhZ2UgIlJlYWRzIGRhdGEgZnJvbSIKICAgICAgICBkYXRhX2VncmVzcyAtPiBvdXRwdXRfZGF0YSAiU3RhZ2VzIGRhdGEgaW4iCiAgICAgICAgb3V0cHV0X2RhdGEgLT4gZW9zY19yZXBvICJBbm9ueW1pemVkIGRhdGEgY2FuIGJlIHB1Ymxpc2hlZCBpbiIKCiAgICAgICAgLyogamVnIC0+IHNpZXN0YV9hdWRpdCAiTG9nIGFjdGlvbnMiICovCiAgICAgICAgLyogcmVtb3RlX2Rlc2t0b3AgLT4gc2llc3RhX2F1ZGl0ICJMb2cgYWN0aW9ucyIgKi8KICAgICAgICAvKiBkYXRhX2VncmVzcyAtPiBzaWVzdGFfYXVkaXQgIkxvZyBkYXRhIHRyYW5zYWN0aW9uIiAqLwogICAgICAgIC8qIG91dHB1dF9kYXRhIC0+IHNpZXN0YV9hdWRpdCAiTG9nIGRhdGEgdHJhbnNhY3Rpb24iICovCiAgICAgICAgLyogY29tcHV0ZV9lbnYgLT4gc2llc3RhX2F1ZGl0ICJMb2cgY29tcHV0ZSB0cmFuc2FjdGlvbiIgKi8KICAgICAgICAvKiBpbmdlc3Rpb24gLT4gc2llc3RhX2F1ZGl0ICJMb2cgZGF0YSB0cmFuc2FjdGlvbiIgKi8KCiAgICAgICAgIyB1c2VyIGFjdGlvbnMKICAgICAgICBlb3NjX3VzZXIgLT4gcmVtb3RlX2Rlc2t0b3AgIlVzZXMgKGhpZ2hseSBzZW5zaXRpdmUgZGF0YSkiCiAgICAgICAgZW9zY191c2VyIC0+IGplZyAiVXNlcyIKICAgICAgICByZW1vdGVfZGVza3RvcCAtPiBqZWcgIkFsbG93cyBhY2Nlc3MgdG8iCiAgICAgICAgZGF0YV9vd25lciAtPiBkYXRhX2VncmVzcyAiQ2hlY2tzIGRhdGEgY2FuIGJlIGV4cG9ydGVkIgogICAgICAgIGRhdGFfb3duZXIgLT4gYW5vbnltaXphdGlvbiAiQW5vbnltaXplcyBkYXRhIHVzaW5nIgogICAgICAgIGVvc2NfdXNlciAtPiBkYXRhX2VncmVzcyAiUmVxdWVzdHMgb3V0cHV0IGRhdGEiCiAgICAgICAgZW9zY191c2VyIC0+IG91dHB1dF9kYXRhICJSZWFkcyBkYXRhIGZyb20iCgogICAgICAgIHJldmlld2VyIC0+IHNlY3VyZV9yZXBvICJSZXZpZXdzIGNvZGUgaW4iCgogICAgICAgICMgYXV0aAogICAgICAgIC8qIGF1dGggLT4gYWFpICJJcyBpbnRlZ3JhdGVkIHdpdGgiICovCiAgICAgICAgLyogZW9zY191c2VyIC0+IGF1dGggIkF1dGhlbnRpY2F0ZXMgd2l0aCIgKi8KICAgICAgICAvKiBkYXRhX293bmVyIC0+IGF1dGggIkF1dGhlbnRpY2F0ZXMgd2l0aCIgKi8KICAgICAgICAvKiByZW1vdGVfZGVza3RvcCAtPiBhdXRoICJBdXRoZW50aWNhdGVzIHdpdGgiICovCiAgICAgICAgLyogamVnIC0+IGF1dGggIkF1dGhlbnRpY2FlcyB3aXRoIiAqLwogICAgICAgIC8qIGRhdGFfZWdyZXNzIC0+IGF1dGggIkF1dGhlbnRpY2F0ZXMgd2l0aCIgKi8KICAgICAgICAvKiBpbmdlc3Rpb24gLT4gYXV0aCAiQXV0aGVudGljYXRlcyB3aXRoIiAqLwoKICAgICAgICAKICAgICAgICAjIENvbXB1dGUKICAgICAgICBqZWcgLT4gY29tcHV0ZV9lbnYgIkNyZWF0ZXMgY29tcHV0ZSB0YXNrcyIKICAgICAgICBjb21wdXRlX2VudiAtPiBlbmNyeXB0ZWRfc3RvcmFnZSAiUmVhZHMvd3JpdGVzIGZyb20iCiAgICAgICAgY29tcHV0ZV9lbnYgLT4gc2VjdXJlX21pcnJvciAiSW5zdGFsbHMgc29mdHdhcmUgZnJvbSIKICAgICAgICBhcGkgLT4gY29tcHV0ZV9lbnYgIkV4ZWN1dGVzIHRhc2tzIG9uIgogICAgICAgIGFwaSAtPiBzZWN1cmVfcmVwbyAiRXhwb3NlcyBmdW5jdGlvbmFsaXR5IGZyb20iCiAgICAgICAgY29tcHV0ZV9lbnYgLT4gc2VjdXJlX3JlcG8gIlJlYWRzIGNvZGUgZnJvbSIKCiAgICAgICAgd29ya2Zsb3cgLT4gYXBpICJSZXF1ZXN0IHRhc2sgZXhlY3V0aW9uIgoKICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgdGhlbWUgRGVmYXVsdAogICAgICAgIAogICAgICAgIHN5c3RlbUxhbmRzY2FwZSB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIHNpZXN0YV9jb21wdXRlIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQogICAgICAgIGNvbnRhaW5lciBzaWVzdGFfc3RvcmFnZSB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KICAgICAgICBjb250YWluZXIgc2llc3RhX2F1ZGl0IHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQogICAgICAgIAogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjODE5NTk1CiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjZmRiNWRiCiAgICAgICAgICAgICAgICBjb2xvciAjMDAwMDAwCiAgICAgICAgICAgICAgICAvKiBzaGFwZSBSb3VuZGVkQm94ICovCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIlNvZnR3YXJlIFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjZmI3ZWMxCiAgICAgICAgICAgICAgICBjb2xvciAjMDAwMDAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAic3RvcmFnZSIgewogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgIH0KCn0K"
   },
   "configuration" : { },
   "model" : {
@@ -14,105 +12,113 @@
       "name" : "SIESTA Trusted Environment for research"
     },
     "people" : [ {
-      "id" : "19",
-      "tags" : "Element,Person",
-      "name" : "Data owner",
-      "relationships" : [ {
-        "id" : "42",
-        "tags" : "Relationship",
-        "sourceId" : "19",
-        "destinationId" : "11",
-        "description" : "Checks data can be exported"
-      }, {
-        "id" : "47",
-        "tags" : "Relationship",
-        "sourceId" : "19",
-        "destinationId" : "13",
-        "description" : "Authenticates with"
-      }, {
-        "id" : "25",
-        "tags" : "Relationship",
-        "sourceId" : "19",
-        "destinationId" : "8",
-        "description" : "Anonymizes data using"
-      }, {
-        "id" : "26",
-        "sourceId" : "19",
-        "destinationId" : "7",
-        "description" : "Anonymizes data using",
-        "linkedRelationshipId" : "25"
-      } ],
-      "group" : "Data provider",
-      "location" : "External"
-    }, {
       "id" : "1",
       "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "eosc_user"
+      },
       "name" : "EOSC User",
       "description" : "Scientists willing to analyze sensitive data in the EOSC.",
       "relationships" : [ {
-        "id" : "43",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "11",
-        "description" : "Requests output data"
-      }, {
-        "id" : "39",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "14",
-        "description" : "Uses (highly sensitive data)"
-      }, {
-        "id" : "46",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "13",
-        "description" : "Authenticates with"
-      }, {
-        "id" : "44",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "12",
-        "description" : "Reads data from"
-      }, {
-        "id" : "22",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "7",
-        "description" : "Uses"
-      }, {
         "id" : "6",
         "tags" : "Relationship",
         "sourceId" : "1",
         "destinationId" : "3",
         "description" : "Browse EOSC resources, create order for new services"
       }, {
-        "id" : "40",
+        "id" : "27",
         "tags" : "Relationship",
         "sourceId" : "1",
-        "destinationId" : "15",
+        "destinationId" : "13",
         "description" : "Uses"
+      }, {
+        "id" : "47",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "14",
+        "description" : "Uses (highly sensitive data)"
+      }, {
+        "id" : "48",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "16",
+        "description" : "Uses"
+      }, {
+        "id" : "52",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "11",
+        "description" : "Requests output data"
+      }, {
+        "id" : "53",
+        "sourceId" : "1",
+        "destinationId" : "7",
+        "description" : "Requests output data",
+        "linkedRelationshipId" : "52"
+      }, {
+        "id" : "54",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "12",
+        "description" : "Reads data from"
       } ],
+      "location" : "External"
+    }, {
+      "id" : "20",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "reviewer"
+      },
+      "name" : "Code reviewer",
+      "relationships" : [ {
+        "id" : "39",
+        "tags" : "Relationship",
+        "sourceId" : "20",
+        "destinationId" : "13",
+        "description" : "Ensures code is trusted"
+      }, {
+        "id" : "55",
+        "tags" : "Relationship",
+        "sourceId" : "20",
+        "destinationId" : "19",
+        "description" : "Reviews code in"
+      } ],
+      "location" : "Internal"
+    }, {
+      "id" : "24",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "data_owner"
+      },
+      "name" : "Data owner",
+      "relationships" : [ {
+        "id" : "30",
+        "tags" : "Relationship",
+        "sourceId" : "24",
+        "destinationId" : "7",
+        "description" : "Makes data available in"
+      }, {
+        "id" : "50",
+        "tags" : "Relationship",
+        "sourceId" : "24",
+        "destinationId" : "11",
+        "description" : "Checks data can be exported"
+      }, {
+        "id" : "51",
+        "tags" : "Relationship",
+        "sourceId" : "24",
+        "destinationId" : "8",
+        "description" : "Anonymizes data using"
+      } ],
+      "group" : "Data provider",
       "location" : "External"
     } ],
     "softwareSystems" : [ {
-      "id" : "3",
-      "tags" : "Element,Software System",
-      "name" : "EOSC Portal",
-      "description" : "Provides access to EOSC resources and services for users.",
-      "group" : "EOSC",
-      "location" : "External",
-      "documentation" : { }
-    }, {
-      "id" : "4",
-      "tags" : "Element,Software System,repository",
-      "name" : "EOSC Repositorty",
-      "description" : "EOSC repository, compliant with EOSC Interoperability Framework.",
-      "group" : "EOSC",
-      "location" : "External",
-      "documentation" : { }
-    }, {
       "id" : "2",
-      "tags" : "Element,Software System",
+      "tags" : "Element,Software System,external",
+      "properties" : {
+        "structurizr.dsl.identifier" : "aai"
+      },
       "name" : "EOSC AAI",
       "description" : "Provides Authentication, Authorization and Identity management for EOSC users.",
       "relationships" : [ {
@@ -126,45 +132,354 @@
       "location" : "External",
       "documentation" : { }
     }, {
-      "id" : "18",
+      "id" : "3",
+      "tags" : "Element,Software System,external",
+      "properties" : {
+        "structurizr.dsl.identifier" : "portal"
+      },
+      "name" : "EOSC Portal",
+      "description" : "Provides access to EOSC resources and services for users.",
+      "group" : "EOSC",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System,repository,external",
+      "properties" : {
+        "structurizr.dsl.identifier" : "eosc_repo"
+      },
+      "name" : "EOSC Repositorty",
+      "description" : "EOSC repository, compliant with EOSC Interoperability Framework.",
+      "group" : "EOSC",
+      "location" : "External",
+      "documentation" : { }
+    }, {
+      "id" : "7",
       "tags" : "Element,Software System",
-      "name" : "SIESTA audit system",
-      "description" : "Allow to tamper-proof trace actions in the compute and storage system",
+      "properties" : {
+        "structurizr.dsl.identifier" : "siesta_storage"
+      },
+      "name" : "SIESTA Secure Storage",
+      "description" : "Allows storage of large-scale data in a secure way",
+      "relationships" : [ {
+        "id" : "33",
+        "tags" : "Relationship",
+        "sourceId" : "7",
+        "destinationId" : "4",
+        "description" : "Can publish data in"
+      }, {
+        "id" : "36",
+        "tags" : "Relationship",
+        "sourceId" : "7",
+        "destinationId" : "2",
+        "description" : "Is integrated with"
+      }, {
+        "id" : "38",
+        "tags" : "Relationship",
+        "sourceId" : "7",
+        "destinationId" : "21",
+        "description" : "Registers transactions on"
+      } ],
       "location" : "Internal",
+      "containers" : [ {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "ingestion"
+        },
+        "name" : "Data ingestion system",
+        "description" : "Allows to fetch data from external sources",
+        "relationships" : [ {
+          "id" : "42",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "10",
+          "description" : "writes anonymized data to"
+        } ],
+        "technology" : "Kafka",
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container,dashboard",
+        "properties" : {
+          "structurizr.dsl.identifier" : "data_egress"
+        },
+        "name" : "Egress service",
+        "description" : "Allows to check that data can be handled accordingly, performing disclosure control, etc.",
+        "relationships" : [ {
+          "id" : "44",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "10",
+          "description" : "Reads data from"
+        }, {
+          "id" : "45",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "12",
+          "description" : "Stages data in"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,dashboard",
+        "properties" : {
+          "structurizr.dsl.identifier" : "anonymization"
+        },
+        "name" : "Assisted anonymization tool",
+        "description" : "Helps users to anonymize their data using different privacy models (differential privacy k-anonymity, l-diversity, etc.)",
+        "relationships" : [ {
+          "id" : "41",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "9",
+          "description" : "sends anonymized data to"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container,storage",
+        "properties" : {
+          "structurizr.dsl.identifier" : "output_data"
+        },
+        "name" : "Output data",
+        "description" : "Non ecrypted storage, providing output data",
+        "relationships" : [ {
+          "id" : "46",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "4",
+          "description" : "Anonymized data can be published in"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container,storage",
+        "properties" : {
+          "structurizr.dsl.identifier" : "encrypted_storage"
+        },
+        "name" : "Encrypted storage",
+        "description" : "Stores data encrypted",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "13",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "siesta_compute"
+      },
+      "name" : "SIESTA Secure Compute",
+      "description" : "Allows large-scale analysis and processing of sensitive data",
+      "relationships" : [ {
+        "id" : "31",
+        "tags" : "Relationship",
+        "sourceId" : "13",
+        "destinationId" : "7",
+        "description" : "Reads data to/from"
+      }, {
+        "id" : "34",
+        "tags" : "Relationship",
+        "sourceId" : "13",
+        "destinationId" : "3",
+        "description" : "Is registered in"
+      }, {
+        "id" : "35",
+        "tags" : "Relationship",
+        "sourceId" : "13",
+        "destinationId" : "2",
+        "description" : "Is integrated with"
+      }, {
+        "id" : "37",
+        "tags" : "Relationship",
+        "sourceId" : "13",
+        "destinationId" : "21",
+        "description" : "Registers transactions on"
+      }, {
+        "id" : "59",
+        "sourceId" : "13",
+        "destinationId" : "10",
+        "description" : "Reads/writes from",
+        "linkedRelationshipId" : "57"
+      } ],
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "19",
+        "tags" : "Element,Container,repository",
+        "properties" : {
+          "structurizr.dsl.identifier" : "secure_repo"
+        },
+        "name" : "Code repository",
+        "description" : "Stores trusted analysis code",
+        "group" : "Compute",
+        "technology" : "GitLab",
+        "documentation" : { }
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "api"
+        },
+        "name" : "Compute API",
+        "description" : "Allows execution of specific tasks, using trusted analysis code",
+        "relationships" : [ {
+          "id" : "61",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "17",
+          "description" : "Executes tasks on"
+        }, {
+          "id" : "62",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "19",
+          "description" : "Exposes functionality from"
+        } ],
+        "group" : "Access",
+        "documentation" : { }
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "remote_desktop"
+        },
+        "name" : "Remote desktop",
+        "description" : "Remote desktop with limited capabilities",
+        "relationships" : [ {
+          "id" : "49",
+          "tags" : "Relationship",
+          "sourceId" : "14",
+          "destinationId" : "16",
+          "description" : "Allows access to"
+        } ],
+        "group" : "Access",
+        "technology" : "Cendio Thinlink",
+        "documentation" : { }
+      }, {
+        "id" : "18",
+        "tags" : "Element,Container,storage",
+        "properties" : {
+          "structurizr.dsl.identifier" : "secure_mirror"
+        },
+        "name" : "Software mirror",
+        "description" : "Allows to install whiteliste analytics packages",
+        "group" : "Compute",
+        "documentation" : { }
+      }, {
+        "id" : "16",
+        "tags" : "Element,Container,dashboard",
+        "properties" : {
+          "structurizr.dsl.identifier" : "jeg"
+        },
+        "name" : "Interactive analytics",
+        "description" : "Allows data scientists to analyze data",
+        "relationships" : [ {
+          "id" : "56",
+          "tags" : "Relationship",
+          "sourceId" : "16",
+          "destinationId" : "17",
+          "description" : "Creates compute tasks"
+        } ],
+        "group" : "Access",
+        "technology" : "Jupyter Enterprise Gateway Server",
+        "documentation" : { }
+      }, {
+        "id" : "17",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "compute_env"
+        },
+        "name" : "Compute environment",
+        "relationships" : [ {
+          "id" : "57",
+          "tags" : "Relationship",
+          "sourceId" : "17",
+          "destinationId" : "10",
+          "description" : "Reads/writes from"
+        }, {
+          "id" : "58",
+          "sourceId" : "17",
+          "destinationId" : "7",
+          "description" : "Reads/writes from",
+          "linkedRelationshipId" : "57"
+        }, {
+          "id" : "60",
+          "tags" : "Relationship",
+          "sourceId" : "17",
+          "destinationId" : "18",
+          "description" : "Installs software from"
+        }, {
+          "id" : "63",
+          "tags" : "Relationship",
+          "sourceId" : "17",
+          "destinationId" : "19",
+          "description" : "Reads code from"
+        } ],
+        "group" : "Compute",
+        "documentation" : { }
+      } ],
       "documentation" : { }
     }, {
       "id" : "21",
-      "tags" : "Element,Software System,storage",
-      "name" : "Non-sensitive data",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "siesta_audit"
+      },
+      "name" : "SIESTA audit system",
+      "description" : "Allow to tamper-proof trace actions in the compute and storage system",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "22",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "auth"
+        },
+        "name" : "Identity",
+        "description" : "Provides AuthN/Z to the SIESTA platform",
+        "technology" : "OpenID Connect",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "23",
+      "tags" : "Element,Software System,external",
+      "properties" : {
+        "structurizr.dsl.identifier" : "workflow"
+      },
+      "name" : "External workflow system",
+      "description" : "Executes analytics workflows",
       "relationships" : [ {
-        "id" : "35",
+        "id" : "32",
         "tags" : "Relationship",
-        "sourceId" : "21",
-        "destinationId" : "9",
-        "description" : "writes data to"
+        "sourceId" : "23",
+        "destinationId" : "13",
+        "description" : "Executes tasks on"
       }, {
-        "id" : "24",
+        "id" : "64",
         "tags" : "Relationship",
-        "sourceId" : "21",
-        "destinationId" : "7",
-        "description" : "Is available in"
+        "sourceId" : "23",
+        "destinationId" : "15",
+        "description" : "Request task execution"
       } ],
       "location" : "External",
       "documentation" : { }
     }, {
-      "id" : "20",
-      "tags" : "Element,Software System,storage",
+      "id" : "25",
+      "tags" : "Element,Software System,storage,external",
+      "properties" : {
+        "structurizr.dsl.identifier" : "sensitive_data"
+      },
       "name" : "Sensitive Data",
       "relationships" : [ {
-        "id" : "23",
+        "id" : "28",
         "tags" : "Relationship",
-        "sourceId" : "20",
+        "sourceId" : "25",
         "destinationId" : "7",
         "description" : "Is available in"
       }, {
-        "id" : "31",
+        "id" : "40",
         "tags" : "Relationship",
-        "sourceId" : "20",
+        "sourceId" : "25",
         "destinationId" : "8",
         "description" : "is anonimized"
       } ],
@@ -172,190 +487,139 @@
       "location" : "External",
       "documentation" : { }
     }, {
-      "id" : "7",
-      "tags" : "Element,Software System",
-      "name" : "SIESTA Secure Compute",
-      "description" : "Allows large-scale analysis and processing of sensitive data",
+      "id" : "26",
+      "tags" : "Element,Software System,storage,external",
+      "properties" : {
+        "structurizr.dsl.identifier" : "external_data"
+      },
+      "name" : "Non-sensitive data",
       "relationships" : [ {
-        "id" : "28",
-        "tags" : "Relationship",
-        "sourceId" : "7",
-        "destinationId" : "3",
-        "description" : "Is registered in"
-      }, {
-        "id" : "27",
-        "tags" : "Relationship",
-        "sourceId" : "7",
-        "destinationId" : "4",
-        "description" : "Can publish data in"
-      }, {
         "id" : "29",
         "tags" : "Relationship",
-        "sourceId" : "7",
-        "destinationId" : "2",
-        "description" : "Is integrated with"
+        "sourceId" : "26",
+        "destinationId" : "7",
+        "description" : "Is available in"
       }, {
-        "id" : "30",
+        "id" : "43",
         "tags" : "Relationship",
-        "sourceId" : "7",
-        "destinationId" : "18",
-        "description" : "Registers actions on"
+        "sourceId" : "26",
+        "destinationId" : "9",
+        "description" : "writes data to"
       } ],
-      "location" : "Internal",
-      "containers" : [ {
-        "id" : "13",
-        "tags" : "Element,Container",
-        "name" : "Identity",
-        "description" : "Provides AuthN/Z to the SIESTA platform",
-        "relationships" : [ {
-          "id" : "45",
-          "tags" : "Relationship",
-          "sourceId" : "13",
-          "destinationId" : "2",
-          "description" : "Is integrated with"
-        } ],
-        "group" : "Access",
-        "technology" : "OpenID Connect",
-        "documentation" : { }
-      }, {
-        "id" : "17",
-        "tags" : "Element,Container,storage",
-        "name" : "Software mirror",
-        "description" : "Allows to install whiteliste analytics packages",
-        "group" : "Compute",
-        "documentation" : { }
-      }, {
-        "id" : "10",
-        "tags" : "Element,Container,storage",
-        "name" : "Encrypted storage",
-        "description" : "Stores data encrypted",
-        "group" : "Storage",
-        "documentation" : { }
-      }, {
-        "id" : "9",
-        "tags" : "Element,Container",
-        "name" : "Data ingestion system",
-        "description" : "Allows to fetch data from external sources",
-        "relationships" : [ {
-          "id" : "34",
-          "tags" : "Relationship",
-          "sourceId" : "9",
-          "destinationId" : "10",
-          "description" : "writes anonymized data to"
-        } ],
-        "group" : "Storage",
-        "technology" : "Kafka",
-        "documentation" : { }
-      }, {
-        "id" : "16",
-        "tags" : "Element,Container",
-        "name" : "Compute environment",
-        "relationships" : [ {
-          "id" : "50",
-          "tags" : "Relationship",
-          "sourceId" : "16",
-          "destinationId" : "17",
-          "description" : "Installs software from"
-        }, {
-          "id" : "49",
-          "tags" : "Relationship",
-          "sourceId" : "16",
-          "destinationId" : "10",
-          "description" : "Reads/writes from"
-        } ],
-        "group" : "Compute",
-        "documentation" : { }
-      }, {
-        "id" : "11",
-        "tags" : "Element,Container,dashboard",
-        "name" : "Egress service",
-        "description" : "Allows to check that data can be handled accordingly, performing disclosure control, etc.",
-        "relationships" : [ {
-          "id" : "36",
-          "tags" : "Relationship",
-          "sourceId" : "11",
-          "destinationId" : "10",
-          "description" : "Reads data from"
-        }, {
-          "id" : "37",
-          "tags" : "Relationship",
-          "sourceId" : "11",
-          "destinationId" : "12",
-          "description" : "Stages data in"
-        } ],
-        "group" : "Storage",
-        "documentation" : { }
-      }, {
-        "id" : "15",
-        "tags" : "Element,Container,dashboard",
-        "name" : "Interactive analytics",
-        "description" : "Allows data scientists to analyze data",
-        "relationships" : [ {
-          "id" : "48",
-          "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "16",
-          "description" : "Creates compute tasks"
-        } ],
-        "group" : "Access",
-        "technology" : "Jupyter Enterprise Gateway Server",
-        "documentation" : { }
-      }, {
-        "id" : "12",
-        "tags" : "Element,Container,storage",
-        "name" : "Output data",
-        "description" : "Non ecrypted storage, providing output data",
-        "relationships" : [ {
-          "id" : "38",
-          "tags" : "Relationship",
-          "sourceId" : "12",
-          "destinationId" : "4",
-          "description" : "Can be published in"
-        } ],
-        "group" : "Storage",
-        "documentation" : { }
-      }, {
-        "id" : "8",
-        "tags" : "Element,Container,dashboard",
-        "name" : "Assisted anonymization tool",
-        "description" : "Helps users to anonymize their data using different privacy models (differential privacy k-anonymity, l-diversity, etc.)",
-        "relationships" : [ {
-          "id" : "33",
-          "tags" : "Relationship",
-          "sourceId" : "8",
-          "destinationId" : "9",
-          "description" : "sends anonymized data to"
-        }, {
-          "id" : "32",
-          "tags" : "Relationship",
-          "sourceId" : "8",
-          "destinationId" : "4",
-          "description" : "can be published in"
-        } ],
-        "group" : "Storage",
-        "documentation" : { }
-      }, {
-        "id" : "14",
-        "tags" : "Element,Container",
-        "name" : "Remote desktop",
-        "description" : "Remote desktop with limited capabilities",
-        "relationships" : [ {
-          "id" : "41",
-          "tags" : "Relationship",
-          "sourceId" : "14",
-          "destinationId" : "15",
-          "description" : "Allows access to"
-        } ],
-        "group" : "Access",
-        "technology" : "Cendio Thinlink",
-        "documentation" : { }
-      } ],
+      "location" : "External",
       "documentation" : { }
     } ]
   },
   "documentation" : { },
   "views" : {
     "systemLandscapeViews" : [ {
+      "key" : "SystemLandscape-001",
+      "order" : 2,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 3508,
+        "height" : 2480
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "23",
+        "x" : 384,
+        "y" : 989
+      }, {
+        "id" : "13",
+        "x" : 762,
+        "y" : 1479
+      }, {
+        "id" : "24",
+        "x" : 2865,
+        "y" : 1009
+      }, {
+        "id" : "25",
+        "x" : 2840,
+        "y" : 1541
+      }, {
+        "id" : "26",
+        "x" : 2865,
+        "y" : 1989
+      }, {
+        "id" : "1",
+        "x" : 1257,
+        "y" : 849
+      }, {
+        "id" : "2",
+        "x" : 2472,
+        "y" : 69
+      }, {
+        "id" : "3",
+        "x" : 2090,
+        "y" : 519
+      }, {
+        "id" : "4",
+        "x" : 2855,
+        "y" : 519
+      }, {
+        "id" : "7",
+        "x" : 1732,
+        "y" : 1479
+      }, {
+        "id" : "20",
+        "x" : 135,
+        "y" : 1410
+      }, {
+        "id" : "21",
+        "x" : 1235,
+        "y" : 1900
+      } ],
+      "relationships" : [ {
+        "id" : "53"
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "30"
+      }, {
+        "id" : "29"
+      }, {
+        "id" : "28"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "37"
+      }, {
+        "id" : "36",
+        "vertices" : [ {
+          "x" : 2690,
+          "y" : 825
+        } ]
+      }, {
+        "id" : "5"
+      }, {
+        "id" : "35",
+        "vertices" : [ {
+          "x" : 1032,
+          "y" : 644
+        } ]
+      }, {
+        "id" : "34",
+        "vertices" : [ {
+          "x" : 1170,
+          "y" : 765
+        } ]
+      }, {
+        "id" : "6",
+        "vertices" : [ {
+          "x" : 2212,
+          "y" : 874
+        } ]
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "38"
+      }, {
+        "id" : "39"
+      } ]
+    }, {
       "key" : "eosc",
       "order" : 1,
       "automaticLayout" : {
@@ -389,152 +653,171 @@
       }, {
         "id" : "6"
       } ]
-    }, {
-      "key" : "SystemLandscape",
-      "order" : 2,
-      "paperSize" : "A3_Landscape",
-      "dimensions" : {
-        "width" : 3254,
-        "height" : 2908
-      },
-      "enterpriseBoundaryVisible" : true,
-      "elements" : [ {
-        "id" : "1",
-        "x" : 1150,
-        "y" : 630
-      }, {
-        "id" : "2",
-        "x" : 2555,
-        "y" : 635
-      }, {
-        "id" : "3",
-        "x" : 1905,
-        "y" : 635
-      }, {
-        "id" : "4",
-        "x" : 2560,
-        "y" : 1020
-      }, {
-        "id" : "7",
-        "x" : 1110,
-        "y" : 1665
-      }, {
-        "id" : "18",
-        "x" : 1110,
-        "y" : 2195
-      }, {
-        "id" : "19",
-        "x" : 249,
-        "y" : 786
-      }, {
-        "id" : "20",
-        "x" : 245,
-        "y" : 1280
-      }, {
-        "id" : "21",
-        "x" : 245,
-        "y" : 1815
-      } ],
-      "relationships" : [ {
-        "id" : "29"
-      }, {
-        "id" : "28"
-      }, {
-        "id" : "27"
-      }, {
-        "id" : "26"
-      }, {
-        "id" : "5"
-      }, {
-        "id" : "24"
-      }, {
-        "id" : "23"
-      }, {
-        "id" : "6"
-      }, {
-        "id" : "22"
-      }, {
-        "id" : "30"
-      } ]
     } ],
     "containerViews" : [ {
-      "softwareSystemId" : "7",
-      "key" : "SIESTASecureCompute-Container",
-      "order" : 3,
+      "key" : "Container-003",
+      "order" : 5,
+      "softwareSystemId" : "21",
+      "paperSize" : "A4_Landscape",
       "dimensions" : {
-        "width" : 5395,
-        "height" : 3146
+        "width" : 3508,
+        "height" : 2480
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "22",
+        "x" : 328,
+        "y" : 287
+      } ]
+    }, {
+      "key" : "Container-001",
+      "order" : 3,
+      "softwareSystemId" : "13",
+      "dimensions" : {
+        "width" : 3394,
+        "height" : 2469
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "23",
+        "x" : 2178,
+        "y" : 249
+      }, {
+        "id" : "1",
+        "x" : 1391,
+        "y" : 199
+      }, {
+        "id" : "14",
+        "x" : 1361,
+        "y" : 759
+      }, {
+        "id" : "15",
+        "x" : 2178,
+        "y" : 759
+      }, {
+        "id" : "16",
+        "x" : 544,
+        "y" : 759
+      }, {
+        "id" : "17",
+        "x" : 564,
+        "y" : 1579
+      }, {
+        "id" : "18",
+        "x" : 1733,
+        "y" : 1804
+      }, {
+        "id" : "7",
+        "x" : 199,
+        "y" : 249
+      }, {
+        "id" : "19",
+        "x" : 1733,
+        "y" : 1374
+      }, {
+        "id" : "20",
+        "x" : 2794,
+        "y" : 1359
+      } ],
+      "relationships" : [ {
+        "id" : "61",
+        "vertices" : [ {
+          "x" : 1329,
+          "y" : 1504
+        } ]
+      }, {
+        "id" : "60"
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "62"
+      }, {
+        "id" : "53"
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "56"
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "58",
+        "vertices" : [ {
+          "x" : 409,
+          "y" : 1519
+        } ]
+      }, {
+        "id" : "48"
+      }, {
+        "id" : "49"
+      } ]
+    }, {
+      "key" : "Container-002",
+      "order" : 4,
+      "softwareSystemId" : "7",
+      "dimensions" : {
+        "width" : 3147,
+        "height" : 2410
       },
       "externalSoftwareSystemBoundariesVisible" : true,
       "elements" : [ {
         "id" : "11",
-        "x" : 1285,
-        "y" : 1475
-      }, {
-        "id" : "12",
-        "x" : 1290,
-        "y" : 889
-      }, {
-        "id" : "13",
-        "x" : 4015,
-        "y" : 869
-      }, {
-        "id" : "14",
-        "x" : 3470,
-        "y" : 859
-      }, {
-        "id" : "15",
-        "x" : 2785,
-        "y" : 845
-      }, {
-        "id" : "16",
-        "x" : 2815,
-        "y" : 1794
-      }, {
-        "id" : "17",
-        "x" : 3620,
-        "y" : 1790
-      }, {
-        "id" : "19",
-        "x" : 440,
-        "y" : 1195
+        "x" : 987,
+        "y" : 1319
       }, {
         "id" : "1",
-        "x" : 3525,
-        "y" : 199
+        "x" : 1382,
+        "y" : 200
       }, {
-        "id" : "2",
-        "x" : 4745,
-        "y" : 889
+        "id" : "12",
+        "x" : 987,
+        "y" : 824
+      }, {
+        "id" : "24",
+        "x" : 224,
+        "y" : 1269
+      }, {
+        "id" : "13",
+        "x" : 2247,
+        "y" : 250
+      }, {
+        "id" : "25",
+        "x" : 199,
+        "y" : 1815
+      }, {
+        "id" : "26",
+        "x" : 2497,
+        "y" : 1820
       }, {
         "id" : "4",
-        "x" : 390,
-        "y" : 2145
+        "x" : 199,
+        "y" : 824
       }, {
         "id" : "8",
-        "x" : 1230,
-        "y" : 1975
+        "x" : 987,
+        "y" : 1815
       }, {
         "id" : "9",
-        "x" : 1255,
-        "y" : 2460
-      }, {
-        "id" : "20",
-        "x" : 420,
-        "y" : 1700
-      }, {
-        "id" : "21",
-        "x" : 350,
-        "y" : 2645
+        "x" : 1742,
+        "y" : 1820
       }, {
         "id" : "10",
-        "x" : 2025,
-        "y" : 2430
+        "x" : 1742,
+        "y" : 970
       } ],
       "relationships" : [ {
         "id" : "50"
       }, {
+        "id" : "51"
+      }, {
         "id" : "40"
+      }, {
+        "id" : "52",
+        "vertices" : [ {
+          "x" : 1549,
+          "y" : 1199
+        } ]
       }, {
         "id" : "41"
       }, {
@@ -542,21 +825,9 @@
       }, {
         "id" : "43"
       }, {
-        "id" : "32"
+        "id" : "54"
       }, {
-        "id" : "31"
-      }, {
-        "id" : "37"
-      }, {
-        "id" : "25"
-      }, {
-        "id" : "36"
-      }, {
-        "id" : "35"
-      }, {
-        "id" : "34"
-      }, {
-        "id" : "33"
+        "id" : "27"
       }, {
         "id" : "44"
       }, {
@@ -564,22 +835,7 @@
       }, {
         "id" : "46"
       }, {
-        "id" : "47"
-      }, {
-        "id" : "48"
-      }, {
-        "id" : "38",
-        "vertices" : [ {
-          "x" : 300,
-          "y" : 1035
-        }, {
-          "x" : 280,
-          "y" : 2445
-        } ]
-      }, {
-        "id" : "49"
-      }, {
-        "id" : "39"
+        "id" : "59"
       } ]
     } ],
     "configuration" : {
@@ -595,13 +851,27 @@
           "tag" : "database",
           "shape" : "Cylinder"
         }, {
+          "tag" : "external",
+          "background" : "#d3d3d3"
+        }, {
+          "tag" : "Person",
+          "background" : "#819595"
+        }, {
+          "tag" : "Container",
+          "background" : "#fdb5db",
+          "color" : "#000000"
+        }, {
+          "tag" : "Software System",
+          "background" : "#fb7ec1",
+          "color" : "#000000"
+        }, {
           "tag" : "storage",
           "shape" : "Cylinder"
         } ]
       },
       "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
       "terminology" : { },
-      "lastSavedView" : "SIESTASecureCompute-Container"
+      "lastSavedView" : "Container-001"
     }
   }
 }
