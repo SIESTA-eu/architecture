@@ -10,7 +10,7 @@ workspace extends ./eosc-landscape.dsl {
             description "Scientists willing to analyze sensitive data in the EOSC."
         }
 
-        siesta = enterprise "SIESTA Trusted Environment for research" {
+        siesta = group "SIESTA Trusted Environment for research" {
             siesta_storage = softwareSystem "SIESTA Secure Storage" "Allows storage of large-scale data in a secure way" {
                 anonymization = container "Assisted anonymization tool" "Helps users to anonymize their data using different privacy models (differential privacy k-anonymity, l-diversity, etc.)" "" "dashboard"
                 ingestion = container "Data ingestion system" "Allows to fetch data from external sources" "Kafka"
