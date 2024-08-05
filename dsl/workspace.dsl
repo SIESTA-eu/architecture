@@ -160,5 +160,5 @@ workspace extends ./eosc-landscape.dsl {
                 shape Cylinder
             }
         }
-
+    }
 }
