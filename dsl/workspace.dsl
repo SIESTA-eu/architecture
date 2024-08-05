@@ -50,7 +50,7 @@ workspace extends ./eosc-landscape.dsl {
         workflow = softwareSystem "External workflow system" "Executes analytics workflows" "external"
 
         data_org = group "Data provider" {
-            data_owner = person "Data owner"
+            data_rightholder = person "Data rightholder"
             sensitive_data = softwareSystem "Sensitive Data" "" "storage,external"
         }
         external_data = softwareSystem "Non-sensitive data" "" "storage,external"
@@ -59,7 +59,7 @@ workspace extends ./eosc-landscape.dsl {
         eosc_user -> siesta_compute "Uses"
         sensitive_data -> siesta_storage "Is available in"
         external_data -> siesta_storage "Is available in"
-        data_owner -> siesta_storage "Makes data available in"
+        data_rightholder -> siesta_storage "Makes data available in"
 
         siesta_compute -> siesta_storage "Reads data to/from"
         workflow -> siesta_compute "Executes tasks on"
@@ -95,8 +95,8 @@ workspace extends ./eosc-landscape.dsl {
         eosc_user -> remote_desktop "Uses (highly sensitive data)"
         eosc_user -> jeg "Uses"
         remote_desktop -> jeg "Allows access to"
-        data_owner -> data_egress "Checks data can be exported"
-        data_owner -> anonymization "Anonymizes data using"
+        data_rightholder -> data_egress "Checks data can be exported"
+        data_rightholder -> anonymization "Anonymizes data using"
         eosc_user -> data_egress "Requests output data"
         eosc_user -> output_data "Reads data from"
 
@@ -105,7 +105,7 @@ workspace extends ./eosc-landscape.dsl {
         # auth
         /* auth -> aai "Is integrated with" */
         /* eosc_user -> auth "Authenticates with" */
-        /* data_owner -> auth "Authenticates with" */
+        /* data_rightholder -> auth "Authenticates with" */
         /* remote_desktop -> auth "Authenticates with" */
         /* jeg -> auth "Authenticaes with" */
         /* data_egress -> auth "Authenticates with" */
