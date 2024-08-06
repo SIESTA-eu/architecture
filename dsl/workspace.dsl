@@ -127,17 +127,17 @@ workspace extends ./eosc-landscape.dsl {
     views {
         theme Default
         
-        systemLandscape {
+        systemLandscape system_view {
             include *
         }
 
-        container siesta_compute {
+        container siesta_compute container_compute_view {
             include *
         }
-        container siesta_storage {
+        container siesta_storage container_storage_view {
             include *
         }
-        container siesta_audit {
+        container siesta_audit container_audit_view {
             include *
         }
         
