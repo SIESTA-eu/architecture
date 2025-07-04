@@ -16,6 +16,18 @@ workspace extends ./eosc-landscape.dsl {
 
         siesta = group "SIESTA Trusted Environment for research" {
         
+
+            siesta_common = softwareSystem "SIESTA Common" "Common services used by the platform"{
+                // external_systems = group "External Systems" {
+                    attestation_svc = container "Attestation Service" "" "Coco Trustee"
+                    auth_svc = container "AAI" "Authentication and Authorization" "Keycloak"
+                    private_registry = container "Private Registry" "" "Harbor" "storage"
+                    secure_repo = container "Code repository" "Stores trusted analysis code" "GitLab" "repository"
+                    secrets_mng = container "Secrets manager" "" "Vault"
+                    secure_mirror = container "Software mirror" "Allows to install whitelists analytics packages" "" "storage"
+                // }
+
+            }
             
             siesta_compute = softwareSystem "SIESTA Secure Compute" "Allows large-scale analysis and processing of sensitive data" {
 
@@ -26,19 +38,11 @@ workspace extends ./eosc-landscape.dsl {
                     usr_interface = container "User interface" "Enables easy interaction with the platform" "Dashboard/CLI"
                 }
 
-                external_systems = group "External Systems" {
-                    attestation_svc = container "Attestation Service" "" "Coco Trustee"
-                    auth_svc = container "AAI" "Authentication and Authorization" "MyAccessID"
-                    private_registry = container "Private Registry" "" "Harbor" "storage"
-                    secure_repo = container "Code repository" "Stores trusted analysis code" "GitLab" "repository"
-                    secrets_mng = container "Secrets manager" "" "Vault"
-                    secure_mirror = container "Software mirror" "Allows to install whitelists analytics packages" "" "storage"
-                }
+                
 
                 
 
                 compute = group "Compute - K8s cluster" {
-
                     operator = container "CoCo Operator" "Provides software needed for confidential computing" ""
                     snapshotter = container "Snapshotter" "Manages container storage and downloads images" "Nydus snapshotter"
                     #coco_cloud_enabler = container "CoCo in cloud enabler" "Enables the use of CoCo on the cloud without baremetal" "Cloud API Adaptor"
@@ -48,7 +52,7 @@ workspace extends ./eosc-landscape.dsl {
                     
             }
             
-            }
+            
             siesta_storage = softwareSystem "SIESTA Secure Storage" "Allows storage of large-scale data in a secure way" {
                 anonymization = container "Assisted anonymization tool" "Helps users to anonymize their data using different privacy models (differential privacy k-anonymity, l-diversity, etc.)" "" "dashboard"
                 ingestion = container "Data ingestion system" "Allows to fetch data from external sources" "Kafka"
@@ -58,6 +62,7 @@ workspace extends ./eosc-landscape.dsl {
                 data_egress = container "Egress service" "Allows to check that data can be handled accordingly, performing disclosure control, etc." "" "dashboard"
                 
                 output_data = container "Output data" "Non encrypted storage, providing output data" "" "storage"
+            }
             }
             
             reviewer = person "Code reviewer"
@@ -78,34 +83,35 @@ workspace extends ./eosc-landscape.dsl {
         external_data = softwareSystem "Non-sensitive data" "" "storage,external"
 
         # System interaction
-        eosc_user -> siesta_compute "Uses"
-        sensitive_data -> siesta_storage "Is available in"
-        external_data -> siesta_storage "Is available in"
-        data_owner -> siesta_storage "Makes data available in"
+        eosc_user -> siesta_compute "Uses" "" "Rtag"
+        sensitive_data -> siesta_storage "Is available in" "" "Rtag"
+        external_data -> siesta_storage "Is available in" "" "Rtag"
+        data_owner -> siesta_storage "Makes data available in" "" "Rtag"
 
-        siesta_compute -> siesta_storage "Reads data to/from"
-        workflow -> siesta_compute "Executes tasks on"
+        siesta_compute -> siesta_storage "Reads data to/from" "" "Rtag"
+        workflow -> siesta_compute "Executes tasks on" "" "Rtag"
 
-        siesta_storage -> eosc_repo "Can publish data in"
-        siesta_compute -> portal "Is registered in"
+        siesta_storage -> eosc_repo "Can publish data in" "" "Rtag"
+        siesta_compute -> portal "Is registered in" "" "Rtag"
         /* siesta_storage -> portal "Is registered in" */
-        siesta_compute -> aai "Is integrated with"
-        siesta_storage -> aai "Is integrated with"
-        siesta_compute -> siesta_audit "Registers transactions on"
-        siesta_storage -> siesta_audit "Registers transactions on"
+        auth_svc -> aai "Is integrated with" "" "Rtag"
+        siesta_compute -> siesta_audit "Registers transactions on" "" "Rtag"
+        siesta_storage -> siesta_audit "Registers transactions on" "" "Rtag"
 
-        reviewer -> siesta_compute "Ensures code is trusted"
-        auditor -> siesta_audit "Audits correct data usage"
+        reviewer -> siesta_compute "Ensures code is trusted" "" "Rtag"
+        auditor -> siesta_audit "Audits correct data usage" "" "Rtag"
+        reviewer -> siesta_audit "Registers code reviews on" "" "Rtag"
+        attestation_svc -> siesta_audit "Registers attestations on" "" "Rtag"
 
         # Data
-        sensitive_data -> anonymization "is anonymized" 
+        sensitive_data -> anonymization "is anonymized"   "" "Rtag"
         /* anonymization -> data_egress */
-        anonymization -> ingestion "sends anonymized data to"
-        ingestion -> encrypted_storage "writes anonymized data to"
-        external_data -> ingestion "writes data to"
-        data_egress -> encrypted_storage "Reads data from"
-        data_egress -> output_data "Stages data in"
-        output_data -> eosc_repo "Anonymized data can be published in"
+        anonymization -> ingestion "sends anonymized data to" "" "Rtag"
+        ingestion -> encrypted_storage "writes anonymized data to" "" "Rtag"
+        external_data -> ingestion "writes data to" "" "Rtag"
+        data_egress -> encrypted_storage "Reads data from" "" "Rtag"
+        data_egress -> output_data "Stages data in" "" "Rtag"
+        output_data -> eosc_repo "Anonymized data can be published in" "" "Rtag"
 
         /* jeg -> siesta_audit "Log actions" */
         /* remote_desktop -> siesta_audit "Log actions" */
@@ -115,20 +121,20 @@ workspace extends ./eosc-landscape.dsl {
         /* ingestion -> siesta_audit "Log data transaction" */
 
         #Data right holder
-        data_owner ->  usr_interface "Access the platform via"
+        data_owner ->  usr_interface "Access the platform via" "" "Rtag"
 
         # user actions
-        eosc_user -> usr_interface "Access the platform via"
-        usr_interface ->  api "Communicates with"
-        eosc_user -> jeg "Uses"
-        usr_interface -> remote_desktop "Uses (highly sensitive data)"
-        remote_desktop -> jeg "Allows access to"
-        data_owner -> data_egress "Checks data can be exported"
-        data_owner -> anonymization "Anonymizes data using"
-        eosc_user -> data_egress "Requests output data"
-        eosc_user -> output_data "Reads data from"
+        eosc_user -> usr_interface "Access the platform via" "" "Rtag"
+        usr_interface ->  api "Communicates with" "" "Rtag"
+        eosc_user -> jeg "Uses" "" "Rtag"
+        usr_interface -> remote_desktop "Uses (highly sensitive data)" "" "Rtag"
+        remote_desktop -> jeg "Allows access to" "" "Rtag"
+        data_owner -> data_egress "Checks data can be exported" "" "Rtag"
+        data_owner -> anonymization "Anonymizes data using" "" "Rtag"
+        eosc_user -> data_egress "Requests output data" "" "Rtag"
+        eosc_user -> output_data "Reads data from" "" "Rtag"
 
-        reviewer -> secure_repo "Reviews code in"
+        reviewer -> secure_repo "Reviews code in"  "" "Rtag"
 
         # auth
         /* auth -> aai "Is integrated with" */
@@ -138,34 +144,39 @@ workspace extends ./eosc-landscape.dsl {
         /* jeg -> auth "Authenticates with" */
         /* data_egress -> auth "Authenticates with" */
         /* ingestion -> auth "Authenticates with" */
-        usr_interface -> auth_svc "Is integrated with"
+        usr_interface -> auth_svc "Is integrated with" "" "Rtag"
                 
         # Compute
-        jeg -> compute_env "Creates compute tasks"
-        compute_env -> encrypted_storage "Reads/writes from"
-        compute_env -> secure_mirror "Installs software from"
-        api -> compute_env "Executes tasks on"
-        api -> secure_repo "Exposes functionality from"
-        compute_env -> secure_repo "Reads code from"
-        compute_env -> secrets_mng "Reads/writes from"
-        compute_env -> private_registry "Downloads images from" 
-        attestation_svc ->  compute_env "Attest trustworthiness of"
-        compute_env -> snapshotter "Download container images using"
-        policy_agent ->  compute_env "Enforces policies"
-        operator ->  compute_env "Installs software for confidential computing"
+        jeg -> compute_env "Creates compute tasks" "" "Rtag"
+        compute_env -> encrypted_storage "Reads/writes from" "" "Rtag"
+        compute_env -> secure_mirror "Installs software from" "" "Rtag"
+        api -> compute_env "Executes tasks on" "" "Rtag"
+        api -> secure_repo "Exposes functionality from" "" "Rtag"
+        compute_env -> secure_repo "Reads code from" "" "Rtag"
+        compute_env -> secrets_mng "Reads/writes from" "" "Rtag"
+        compute_env -> private_registry "Downloads images from"  "" "Rtag"
+        attestation_svc ->  compute_env "Attest trustworthiness of" "" "Rtag"
+        compute_env -> snapshotter "Download container images using" "" "Rtag"
+        policy_agent ->  compute_env "Enforces policies" "" "Rtag"
+        operator ->  compute_env "Installs software for confidential computing" "" "Rtag"
 
-        workflow -> api "Request task execution"
+        workflow -> api "Request task execution" "" "Rtag"
 
     }
 
     views {
         theme Default
+
+        
         
         systemLandscape {
             include *
         }
 
         container siesta_compute {
+            include *
+        }
+        container siesta_common {
             include *
         }
         container siesta_storage {
@@ -178,20 +189,28 @@ workspace extends ./eosc-landscape.dsl {
         styles {
             element "Person" {
                 background #819595
+                fontSize 30
             }
             
             element "Container" {
                 background #fdb5db
                 color #000000
+                fontSize 30
                 /* shape RoundedBox */
             }
 
             element "Software System" {
                 background #fb7ec1
                 color #000000
+                fontSize 30
             }
             element "storage" {
                 shape Cylinder
+                fontSize 30
+            }
+            relationship "Rtag" {
+                fontSize 26
+                color #000000
             }
         }
 

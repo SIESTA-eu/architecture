@@ -11,9 +11,9 @@ workspace eosc "EOSC architecture" {
             eosc_repo = softwareSystem "EOSC Repositorty" "EOSC repository, compliant with EOSC Interoperability Framework." "repository,external"
         }
 
-        aai -> portal "Provides authentication for"
+        aai -> portal "Provides authentication for" "" "Rtag"
 
-        eosc_user -> portal "Browse EOSC resources, create order for new services"
+        eosc_user -> portal "Browse EOSC resources, create order for new services" "" "Rtag"
     }
 
     views {
