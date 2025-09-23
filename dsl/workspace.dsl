@@ -20,11 +20,13 @@ workspace extends ./eosc-landscape.dsl {
             siesta_common = softwareSystem "SIESTA Common" "Common services used by the platform"{
                 // external_systems = group "External Systems" {
                     attestation_svc = container "Attestation Service" "" "Coco Trustee"
-                    auth_svc = container "AAI" "Authentication and Authorization" "Keycloak"
+                    auth_svc = container "Keycloak" "Authentication and Authorization" "Keycloak"
                     private_registry = container "Private Registry" "" "Harbor" "storage"
-                    secure_repo = container "Code repository" "Stores trusted analysis code" "GitLab" "repository"
+                    secure_repo = container "Code repository\n/Issue tracker" "Stores trusted analysis code" "GitLab" "repository"
                     secrets_mng = container "Secrets manager" "" "Vault"
                     secure_mirror = container "Software mirror" "Allows to install whitelists analytics packages" "" "storage"
+                    dataset_catalogue = container "Dataset catalogue" "Enables discovery, classification and management of metadata" "TBD"
+                    ids = container "IDS" "Provides real-time monitoring and auditing of security events" "Wazuh"
                 // }
 
             }
@@ -35,7 +37,7 @@ workspace extends ./eosc-landscape.dsl {
                     remote_desktop = container "Remote desktop" "Remote desktop with limited capabilities" "Cendio Thinlinc"
                     api = container "Compute API" "Allows execution of specific tasks, using trusted analysis code" 
                     jeg = container "Interactive analytics" "Allows data scientists to analyze data" "Jupyter Enterprise Gateway Server" "dashboard"
-                    usr_interface = container "User interface" "Enables easy interaction with the platform" "Dashboard/CLI"
+                    usr_interface = container "Web Interface" "Enables easy interaction with the platform" "ONYXIA"
                 }
 
                 
@@ -71,10 +73,12 @@ workspace extends ./eosc-landscape.dsl {
 
             siesta_audit = softwareSystem "SIESTA audit system" "Allow to tamper-proof trace actions in the compute and storage system" {
                 auth = container "Identity" "Provides AuthN/Z to the SIESTA platform" "OpenID Connect"
+                #ids = container "Wazuh" "Provides real-time monitoring and auditing of security events"
             }
         
 
         workflow = softwareSystem "External workflow system" "Executes analytics workflows" "external"
+        
 
         data_org = group "Data provider" {
             data_owner = person "Data right holder"
@@ -125,6 +129,7 @@ workspace extends ./eosc-landscape.dsl {
 
         # user actions
         eosc_user -> usr_interface "Access the platform via" "" "Rtag"
+        eosc_user -> dataset_catalogue "Explore datasets via" "" "Rtag"
         usr_interface ->  api "Communicates with" "" "Rtag"
         eosc_user -> jeg "Uses" "" "Rtag"
         usr_interface -> remote_desktop "Uses (highly sensitive data)" "" "Rtag"
@@ -137,7 +142,7 @@ workspace extends ./eosc-landscape.dsl {
         reviewer -> secure_repo "Reviews code in"  "" "Rtag"
 
         # auth
-        /* auth -> aai "Is integrated with" */
+        /* auth -> aai "Is integraxted with" */
         /* eosc_user -> auth "Authenticates with" */
         /* data_owner -> auth "Authenticates with" */
         /* remote_desktop -> auth "Authenticates with" */
@@ -155,6 +160,7 @@ workspace extends ./eosc-landscape.dsl {
         compute_env -> secure_repo "Reads code from" "" "Rtag"
         compute_env -> secrets_mng "Reads/writes from" "" "Rtag"
         compute_env -> private_registry "Downloads images from"  "" "Rtag"
+        ids -> compute_env "Gathers pods/nodes security events" "" "Rtag"
         attestation_svc ->  compute_env "Attest trustworthiness of" "" "Rtag"
         compute_env -> snapshotter "Download container images using" "" "Rtag"
         policy_agent ->  compute_env "Enforces policies" "" "Rtag"
@@ -189,28 +195,29 @@ workspace extends ./eosc-landscape.dsl {
         styles {
             element "Person" {
                 background #819595
-                fontSize 30
+                fontSize 36
             }
             
             element "Container" {
                 background #fdb5db
                 color #000000
-                fontSize 30
+                fontSize 36
                 /* shape RoundedBox */
             }
 
             element "Software System" {
                 background #fb7ec1
                 color #000000
-                fontSize 30
+                fontSize 36
             }
             element "storage" {
                 shape Cylinder
-                fontSize 30
+                fontSize 36
             }
             relationship "Rtag" {
-                fontSize 26
+                fontSize 32
                 color #000000
+                width 300
             }
         }
 
