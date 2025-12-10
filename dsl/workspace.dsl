@@ -6,7 +6,7 @@ workspace extends ./eosc-landscape.dsl {
     description "SIESTA architecture"
 
     model {
-        !ref eosc_user {
+        !element eosc_user {
             description "Scientists willing to analyze sensitive data in the EOSC."
         }
         
